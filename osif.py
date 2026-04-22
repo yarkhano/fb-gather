@@ -183,7 +183,7 @@ def get(data):
 def login_id():
     print '[*] login to your facebook account'
     username = raw_input('[?] Username : ')
-    pwd = getpass.getpass('[?] Password : ')
+    pwd = raw_input('[?] Password : ')
     API_SECRET = '62f8ce9f74b12f84c123cc23437a4a32'
     data = {
         "api_key": "882a8490361da98702bf97a021ddc14d",
